@@ -4,11 +4,11 @@ import react from 'react'
 const Character = (props) => {
     console.log(props)
 
-    const character = props.character
+    const {character} = props
     
     return (
         <article >
-            <p>{character.name} is {character.status}</p>
+            <p>{character.name} is {character.height} tall</p>
 
         </article>
     )

@@ -5,21 +5,7 @@ import Character from "./components/Character";
 
 const App = () => {
 
-  const [characters, setCharacters] = useState([
-    {
-    name: "Brian",
-    status: "Alive"
-    },
-    {
-      name: "Johnny number",
-      status: "Alive"
-    },
-    {
-        name: "Conor",
-        status: "Alive"
-    },
-
-  ])
+  const [characters, setCharacters] = useState([])
   console.log("It Rendered!")
 
   useEffect(()=>{
